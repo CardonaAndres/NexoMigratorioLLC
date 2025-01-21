@@ -1,16 +1,7 @@
 {
-    "rewrites": [
-      {
-        "source": "/(.*)",
-        "destination": "/index.html"
-      }
-    ],
-    "headers": [
-      {
-        "source": "/(.*)",
-        "headers": [
-
-        ]
-      }
+    "version": 2,
+    "routes": [
+      { "src": "/(.*)", "dest": "/" }
     ]
   }
+  
