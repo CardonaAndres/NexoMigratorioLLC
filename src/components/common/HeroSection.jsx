@@ -70,7 +70,7 @@ export const HeroSection = () => {
                     group-hover:translate-x-1" />
                 </Link>
                 <a 
-                  href={`#${router.ourServices}`} 
+                  href="#Servicios"
                   className="px-6 py-3 text-white text-center font-medium 
                     border border-white/20 rounded-lg
                     backdrop-blur-sm hover:bg-white/10 

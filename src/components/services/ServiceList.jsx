@@ -1,8 +1,11 @@
 import { ServiceCard } from './ServiceCard';
 import { HelpCircle } from 'lucide-react';
 import { motion } from 'framer-motion';
+import { useServices } from '../../hooks/useServices';
 
-export const ServiceList = ({ services = [] }) => {
+export const ServiceList = () => {
+
+  const { services } = useServices();
 
   return (
     <div className="py-20 px-4 bg-gray-100">
