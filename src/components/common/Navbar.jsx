@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { LogoCommponent } from '../navbar/LogoCommponent';
 import { MainMenu } from '../navbar/MainMenu';
-import { MainButtons } from '../Navbar/MainButtons';
+import { MainButtons } from '../navbar/MainButtons';
 
 export const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
