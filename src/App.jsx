@@ -1,6 +1,6 @@
+import './assets/css/index.css';
 import { router } from './configs/config.js';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import './assets/css/index.css';
 import { Navbar } from './components/common/Navbar.jsx';
 import { WhatsAppButton } from './components/common/WhatsAppButton.jsx';
 import { HomePage } from './pages/HomePage.jsx';
@@ -17,7 +17,7 @@ export const App = () => {
         <Route path={router.contact} element={<div> Contacto </div>} />
         <Route path={router.ourServices} element={<ServiceList />} />
 
-
+        <Route path="*" element={<div>Página no encontrada</div>} />
       </Routes>
 
       <WhatsAppButton />
