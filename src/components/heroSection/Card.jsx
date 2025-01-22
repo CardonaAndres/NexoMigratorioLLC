@@ -23,10 +23,7 @@ export const Card = () => {
                 </div>
                 
                 <p className="text-white sm:text-lg leading-relaxed">
-                Contamos con un equipo especializado que te guiará en cada paso del proceso 
-                migratorio a los Estados Unidos. Desde la solicitud de visas hasta el 
-                acompañamiento en entrevistas consulares, te brindamos asesoría para que tu 
-                trámite sea lo más sencillo y seguro posible.
+                    Asesoría Completa y Personalizada Para Tu Procesos Migratorio En USA 
                 </p>
                 
                 <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 sm:gap-4">

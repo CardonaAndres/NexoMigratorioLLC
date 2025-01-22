@@ -1,5 +1,6 @@
 import { HeroSection } from '../components/common/HeroSection';
 import { LocationComponent } from '../components/common/LocationComponent';
+import { ServicesCarousel } from '../components/services/ServicesCarousel';
 import { ServiceList } from '../components/services/ServiceList';
 import { AboutUs } from './AboutUs';
 import { useEffect } from 'react';
@@ -11,6 +12,7 @@ export const HomePage = () => {
 
   return (
     <>
+      <ServicesCarousel />
       <HeroSection />
       <AboutUs />
       <div id="Servicios">

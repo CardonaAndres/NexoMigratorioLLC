@@ -9,10 +9,12 @@ import { ServiceList } from './components/services/ServiceList.jsx';
 import { Footer } from './components/common/Footer.jsx';
 import { LocationComponent } from './components/common/LocationComponent.jsx';
 import { ContactPage } from './pages/ContactPage.jsx';
+import { MetaTags } from './components/common/MetaTags.jsx';
 
 export const App = () => {
   return (
     <Router>
+      <MetaTags />
       <Navbar />
       <Routes>
         <Route path={router.welcome} element={<HomePage />} />
