@@ -22,7 +22,7 @@ export const Card = () => {
                     <div className="w-20 h-1 bg-blue-500/80 rounded-full transform origin-left transition-all duration-300 hover:scale-x-150" />
                 </div>
                 
-                <p className="text-white/90 text-base sm:text-lg leading-relaxed">
+                <p className="text-white sm:text-lg leading-relaxed">
                 Contamos con un equipo especializado que te guiará en cada paso del proceso 
                 migratorio a los Estados Unidos. Desde la solicitud de visas hasta el 
                 acompañamiento en entrevistas consulares, te brindamos asesoría para que tu 
