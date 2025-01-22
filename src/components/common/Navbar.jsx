@@ -7,7 +7,7 @@ export const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <nav className="bg-white shadow-lg">
+    <nav className="bg-white shadow-lg mb-1">
       {/* Navbar principal */}
       <div className="max-w-9xl mx-auto px-4 sm:px-6 lg:px-8 py-2">
         <div className="flex justify-between h-20">

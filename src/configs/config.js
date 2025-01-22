@@ -3,5 +3,6 @@ export const router = {
     welcome : '/',
     ourServices : '/Servicios',
     contact : '/Contacto',
-    aboutUs : '/Sobre-nosotros'
+    aboutUs : '/Sobre-nosotros',
+    location : '/Ubicacion'
 }

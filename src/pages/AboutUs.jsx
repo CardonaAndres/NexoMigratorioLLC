@@ -1,4 +1,4 @@
-import { Award, Clock, Users, Shield, Globe, CheckCircle,Building, Briefcase, FileCheck} from 'lucide-react';
+import { Clock, Users, Shield,Building, Briefcase, FileCheck } from 'lucide-react';
 import { useEffect } from 'react';
 
 export const AboutUs = () => {
@@ -48,7 +48,7 @@ export const AboutUs = () => {
           {/* Header Section */}
           <div className="text-center mb-16">
             <h1 className="text-4xl md:text-5xl font-bold text-blue-900 mb-6">
-              Nexus Migratorio LLC
+              Nexo Migratorio LLC
             </h1>
             <div className="w-24 h-1 bg-red-400 mx-auto mb-8" />
             <p className="text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed">
@@ -106,21 +106,21 @@ export const AboutUs = () => {
           </div>
     
           {/* Estadísticas */}
-            <div className="mt-20 flex justify-center items-center">
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
-                    <div className="p-6">
-                        <div className="text-4xl font-bold text-blue-900 mb-2">15+</div>
-                        <div className="text-gray-600">Años de Experiencia</div>
-                    </div>
-                    <div className="p-6">
-                        <div className="text-4xl font-bold text-blue-900 mb-2">5000+</div>
-                        <div className="text-gray-600">Casos Exitosos</div>
-                    </div>
-                    <div className="p-6">
-                        <div className="text-4xl font-bold text-blue-900 mb-2">98%</div>
-                        <div className="text-gray-600">Tasa de Éxito</div>
-                    </div>
+          <div className="mt-20 flex justify-center items-center">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                <div className="p-6">
+                    <div className="text-4xl font-bold text-blue-900 mb-2">15+</div>
+                    <div className="text-gray-600">Años de Experiencia</div>
                 </div>
+                <div className="p-6">
+                    <div className="text-4xl font-bold text-blue-900 mb-2">5000+</div>
+                    <div className="text-gray-600">Casos Exitosos</div>
+                </div>
+                <div className="p-6">
+                    <div className="text-4xl font-bold text-blue-900 mb-2">98%</div>
+                    <div className="text-gray-600">Tasa de Éxito</div>
+                </div>
+            </div>
             </div>
         </div>
       );
