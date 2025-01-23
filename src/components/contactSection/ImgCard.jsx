@@ -30,7 +30,7 @@ export const ImgCard = () => {
         transition={{ duration: 0.6, delay: 0.6 }}
         className="text-blue-50"
       >
-        Más de 10 años de experiencia ayudando a personas a cumplir sus
+        Más de 15 años de experiencia ayudando a personas a cumplir sus
         sueños migratorios
       </motion.p>
     </div>
