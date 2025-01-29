@@ -27,12 +27,10 @@ export const Card = () => {
                 </p>
                 
                 <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 sm:gap-4">
-                <Link 
-                    to={router.contact} 
+                <Link to={router.contact} 
                     className="group inline-flex items-center justify-center px-6 py-3 
                     bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-500 hover:to-blue-600 
-                    text-white rounded-lg font-medium 
-                    transform transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg"
+                    text-white rounded-lg font-medium transform transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg"
                 >
                     <span>Comenzar Ahora</span>
                     <ArrowRight className="ml-2 h-5 w-5 transition-transform duration-300 
@@ -40,10 +38,9 @@ export const Card = () => {
                 </Link>
                 <a 
                     href="#Servicios"
-                    className="px-6 py-3 text-white text-center font-medium 
-                    border border-white/20 rounded-lg
-                    backdrop-blur-sm hover:bg-white/10 
-                    transition-all duration-300 hover:-translate-y-0.5"
+                    className="group inline-flex items-center justify-center px-6 py-3 
+                    bg-gradient-to-r from-red-600 to-red-500 hover:from-red-500 hover:to-red-600 
+                    text-white rounded-lg font-medium transform transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg"
                 >
                     Explorar Servicios
                 </a>
