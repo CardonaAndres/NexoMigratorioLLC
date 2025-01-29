@@ -49,7 +49,7 @@ export const Footer = () => {
                 <li className="flex items-center">
                     <Mail className="mr-3 h-5 w-5 text-blue-300" />
                     <a href="mailto:info@nexomigra.com" className="text-gray-300 hover:text-blue-300 transition-colors">
-                    info@nexomigratorio.com
+                    Nexomigratorio@gmail.com 
                     </a>
                 </li>
                 </ul>

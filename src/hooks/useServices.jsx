@@ -5,7 +5,7 @@ export const useServices = () => {
     const services = [
         {
             title: 'Asilo y Parole Humanitario',
-            description: 'Procesos migratorios clave como el asilo y el Parole Humanitario, ambos enfocados en permitir la permanencia en EE.UU. mediante el cumplimiento de ciertos requisitos. El Parole Humanitario se solicita mediante el formulario I-134A.',
+            description: 'Procesos migratorios clave como el asilo y el Parole Humanitario, ambos enfocados en permitir la permanencia en EE.UU. mediante el cumplimiento de ciertos requisitos.',
             moreInfo: '',
             icon: <Users size={24} />
         },
@@ -23,7 +23,7 @@ export const useServices = () => {
         },
         {
             title: 'Petición Familiar',
-            description: 'Proceso migratorio para que ciudadanos y residentes de EE.UU. puedan traer a un familiar extranjero legalmente con el formulario I-130.',
+            description: 'Proceso migratorio para que ciudadanos y residentes de EE.UU. puedan traer a un familiar extranjero legalmente',
             moreInfo: '',
             icon: <UserPlus size={24} />
         },
