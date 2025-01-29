@@ -79,7 +79,7 @@ export const LocationComponent = () => {
               </div>
               <div>
                 <h3 className="font-semibold text-gray-800 mb-1">Email</h3>
-                <p className="text-gray-600">info@nexomigratorio.com</p>
+                <p className="text-gray-600">Nexomigratorio@gmail.com </p>
               </div>
             </div>
           </motion.div>
