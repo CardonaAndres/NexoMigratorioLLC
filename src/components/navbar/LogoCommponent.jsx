@@ -19,7 +19,7 @@ export const LogoCommponent = () => {
     } else if (windowWidth < 1024) { // tablet
       return 'h-16 w-auto';
     }
-    return 'h-20 w-auto'; // desktop
+    return 'h-full w-auto'; // desktop
   };
 
   return (
@@ -28,11 +28,9 @@ export const LogoCommponent = () => {
         <img className={`${getImageDimensions()} object-contain`} src={Logo} 
           alt="Logo Nexo Migratorio" loading="lazy" decoding="async"draggable="false"
         />
-        <div className="ml-3">
-          <h1 className="text-xl font-bold text-gray-800 hidden sm:block">
+          <h1 className="hidden">
             Nexo Migratorio LCC
           </h1>
-        </div>
       </div>
     </Link>
   )
