@@ -15,7 +15,7 @@ export const LogoCommponent = () => {
 
   const getImageDimensions = () => {
     if (windowWidth < 660) { // móvil
-      return 'h-9 w-auto';
+      return 'h-10 w-auto';
     } else if (windowWidth < 1024) { // tablet
       return 'h-16 w-auto';
     }

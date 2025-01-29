@@ -55,7 +55,7 @@ export const ContactForm = () => {
                         ? "border-red-500 focus:border-red-500"
                         : "border-gray-200 focus:border-blue-500"
                     } pl-12`}
-                    placeholder="+54 11 XXXX XXXX"
+                    placeholder="+1 XX XXXX XXXX"
                     {...register("phone", {
                       required: "El celular es obligatorio",
                       pattern: {
