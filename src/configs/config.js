@@ -7,4 +7,4 @@ export const router = {
     location : '/Ubicacion'
 }
 
-export const BASE_URL = "https://nexo-migratorio-llc.vercel.app";
+export const BASE_URL = "https://www.nexomigratorio.com";
