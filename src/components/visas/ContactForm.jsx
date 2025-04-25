@@ -97,7 +97,7 @@ export const ContactForm = ({ showForm, setShowForm }) => {
                       className={`shadow appearance-none border rounded w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-blue-500 ${errors.phone ? 'border-red-500' : ''}`}
                       id="phone"
                       type="tel"
-                      placeholder="+1 (123) 456-7890"
+                      placeholder="+57 301 9049338"
                       {...register("phone", { 
                         required: "Este campo es obligatorio",
                         pattern: {
