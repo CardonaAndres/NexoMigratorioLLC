@@ -1,4 +1,4 @@
-import { Menu, Home, Phone, Info } from 'lucide-react'; 
+import { Menu, Home, Phone, Info, IdCard } from 'lucide-react'; 
 import { motion } from 'framer-motion'; 
 import { Link } from 'react-router-dom';
 import { router } from '../../configs/config.js'; 
@@ -6,6 +6,7 @@ import { router } from '../../configs/config.js';
 export const MainButtons = ({ setIsMenuOpen }) => {
   const mainButtons = [
     { name: 'Inicio', to: router.welcome, icon: <Home size={20} /> },  
+    { name: 'Visas', to: router.visasPage, icon: <IdCard size={25} /> },
     { name: 'Contacto', to: router.contact , icon: <Phone size={20} /> },
     { name: 'Sobre Nosotros', to: router.aboutUs, icon: <Info size={20} /> }
   ];

@@ -1,7 +1,7 @@
 import {  Phone, Mail,  Globe, ChevronRight } from 'lucide-react';
 import { useServices } from '../../hooks/useServices';
 
-export const Footer = () => {
+export const Footer = ({ IsVisasPage }) => {
     const currentYear = new Date().getFullYear();
     const { services } = useServices();
     
@@ -44,12 +44,12 @@ export const Footer = () => {
                 <ul className="space-y-4">
                 <li className="flex items-center">
                     <Phone className="mr-3 h-5 w-5 text-blue-300" />
-                    <span className="text-gray-300">+1(954) 9552933</span>
+                    <span className="text-gray-300"> { IsVisasPage ? '+57 3019049338' : '+1(954) 9017771' } </span>
                 </li>
                 <li className="flex items-center">
                     <Mail className="mr-3 h-5 w-5 text-blue-300" />
                     <a href="mailto:info@nexomigra.com" className="text-gray-300 hover:text-blue-300 transition-colors">
-                    Nexomigratorio@gmail.com 
+                    info@nexomigratorio.com
                     </a>
                 </li>
                 </ul>

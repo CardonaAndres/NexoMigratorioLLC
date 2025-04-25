@@ -15,17 +15,17 @@ export const LogoCommponent = () => {
 
   const getImageDimensions = () => {
     if (windowWidth < 660) { // móvil
-      return 'h-12 w-auto';
-    } else if (windowWidth < 1024) { // tablet
       return 'h-16 w-auto';
+    } else if (windowWidth < 1024) { // tablet
+      return 'h-20 w-auto';
     }
-    return 'h-full w-auto'; // desktop
+    return 'h-24 w-auto'; // desktop
   };
 
   return (
     <Link to="/" className="flex items-center">
       <div className="flex-shrink-0 flex items-center">
-        <img className={`${getImageDimensions()} object-contain`} src={Logo} 
+        <img className={`${getImageDimensions()} object-contain h-`} src={Logo} 
           alt="Logo Nexo Migratorio" loading="lazy" decoding="async"draggable="false"
         />
           <h1 className="hidden">

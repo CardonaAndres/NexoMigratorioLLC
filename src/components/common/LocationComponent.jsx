@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { MapPin, Clock, Phone, Mail, Navigation } from 'lucide-react';
+import { MapPin, Phone, Mail, Navigation } from 'lucide-react';
 
 export const LocationComponent = () => {
   const [isHovered, setIsHovered] = useState(false);
@@ -69,7 +69,7 @@ export const LocationComponent = () => {
               </div>
               <div>
                 <h3 className="font-semibold text-gray-800 mb-1">Teléfono</h3>
-                <p className="text-gray-600">+1(954) 9552933</p>
+                <p className="text-gray-600">+1(954) 9017771</p>
               </div>
             </div>
 
@@ -79,13 +79,13 @@ export const LocationComponent = () => {
               </div>
               <div>
                 <h3 className="font-semibold text-gray-800 mb-1">Email</h3>
-                <p className="text-gray-600">Nexomigratorio@gmail.com </p>
+                <p className="text-gray-600">info@nexomigratorio.com</p>
               </div>
             </div>
           </motion.div>
 
           {/* Botón al final */}
-          <motion.button onClick={() => window.open(`https://wa.me/19549552933`, '_blank')}
+          <motion.button onClick={() => window.open(`https://wa.me/19549017771`, '_blank')}
             className="mt-auto w-full bg-red-600 text-white py-3 px-6 rounded-lg flex items-center justify-center space-x-2 hover:bg-red-700 transition-all duration-300"
             whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }} >
             <Navigation className="w-5 h-5" />

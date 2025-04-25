@@ -1,4 +1,4 @@
-import { X, Home, Briefcase, Phone, Info, MapPin  } from 'lucide-react';
+import { X, Home, Briefcase, Phone, Info, MapPin, IdCard } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom'; 
 import { router } from '../../configs/config.js';
@@ -7,6 +7,7 @@ export const MainMenu = ({ isMenuOpen, setIsMenuOpen }) => {
 
   const menuItems = [
     { name: 'Inicio', to: router.welcome, icon: <Home size={24} /> },  
+    { name: 'Visas', to: router.visasPage, icon: <IdCard size={25} /> },
     { name: 'Servicios', to: router.ourServices, icon: <Briefcase size={24} /> },
     { name: 'Contacto', to: router.contact, icon: <Phone size={24} /> },
     { name: 'Sobre Nosotros', to: router.aboutUs, icon: <Info size={24} /> },
